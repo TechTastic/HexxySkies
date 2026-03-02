@@ -1,6 +1,7 @@
 package io.github.techtastic.hexxyskies.mixin.hexical;
 
 import miyucomics.hexical.features.pedestal.PedestalBlockEntity;
+import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.item.ItemEntity;
@@ -22,8 +23,9 @@ public class MixinPedestalBlockEntity {
 
     @Inject(method = "configureItemEntity", at = @At("TAIL"), remap = false)
     private void valkyrienskies$putItemInShipyard(CallbackInfo ci) {
-        BlockPos pos = ((PedestalBlockEntity) ((Object) this)).getBlockPos();
-        if (((PedestalBlockEntity) ((Object) this)).getLevel() instanceof ServerLevel level) {
+        BlockEntity blockEntity = ((BlockEntity) ((Object) this));
+        BlockPos pos = blockEntity.getBlockPos();
+        if (blockEntity.getLevel() instanceof ServerLevel level) {
             LoadedServerShip ship = VSGameUtilsKt.getLoadedShipManagingPos(level, pos);
             if (heldEntity != null && ship != null) {
                 DefaultShipyardEntityHandler.INSTANCE.moveEntityFromWorldToShipyard(heldEntity, ship);
@@ -33,8 +35,8 @@ public class MixinPedestalBlockEntity {
 
     @Inject(method = "updateItemEntity", at = @At("TAIL"), remap = false)
     private void valkyrienskies$makeSureItemIsInShipyard(CallbackInfo ci) {
-        BlockPos pos = ((PedestalBlockEntity) ((Object) this)).getBlockPos();
-        if (((PedestalBlockEntity) ((Object) this)).getLevel() instanceof ServerLevel level) {
+        BlockPos pos = ((BlockEntity) ((Object) this)).getBlockPos();
+        if (((BlockEntity) ((Object) this)).getLevel() instanceof ServerLevel level) {
             LoadedServerShip ship = VSGameUtilsKt.getLoadedShipManagingPos(level, pos);
             if (heldEntity != null && ship != null) {
                 DefaultShipyardEntityHandler.INSTANCE.moveEntityFromWorldToShipyard(heldEntity, ship);
