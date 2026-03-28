@@ -34,7 +34,7 @@ object OpAssemble : SpellAction {
 
     private data class Spell(val positions: Set<BlockPos>) : RenderedSpell {
         override fun cast(env: CastingEnvironment) {
-            DelayedAssemblyHelper.addNew(positions)
+            DelayedAssemblyHelper.addNew(env.world, positions)
         }
     }
 }
