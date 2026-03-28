@@ -1,0 +1,189 @@
+[
+  {
+    "block": "hexcasting:impetus/empty",
+    "mass": 2900.0,
+    "elasticity": 0.5,
+    "friction": 0.3
+  },
+  {
+    "block": "hexcasting:impetus/rightclick",
+    "mass": 2900.0,
+    "elasticity": 0.5,
+    "friction": 0.3
+  },
+  {
+    "block": "hexcasting:impetus/look",
+    "mass": 2900.0,
+    "elasticity": 0.5,
+    "friction": 0.3
+  },
+  {
+    "block": "hexcasting:impetus/redstone",
+    "mass": 2900.0,
+    "elasticity": 0.5,
+    "friction": 0.3
+  },
+  {
+    "block": "hexcasting:directrix/empty",
+    "mass": 2900.0,
+    "elasticity": 0.5,
+    "friction": 0.3
+  },
+  {
+    "block": "hexcasting:directrix/redstone",
+    "mass": 2900.0,
+    "elasticity": 0.5,
+    "friction": 0.3
+  },
+  {
+    "block": "hexcasting:directrix/boolean",
+    "mass": 2900.0,
+    "elasticity": 0.5,
+    "friction": 0.3
+  },
+  {
+    "block": "hexcasting:slate",
+    "mass": 200.0,
+    "elasticity": 0.5,
+    "friction": 0.4
+  },
+  {
+    "block": "hexcasting:akashic_record",
+    "mass": 800.0,
+    "friction": 0.5
+  },
+  {
+    "block": "hexcasting:akashic_bookshelf",
+    "mass": 800.0,
+    "friction": 0.5
+  },
+  {
+    "block": "hexcasting:akashic_connector",
+    "mass": 800.0,
+    "friction": 0.5
+  },
+  {
+    "block": "hexcasting:quenched_allay",
+    "mass": 2650.0,
+    "friction": 1.0
+  },
+  {
+    "block": "hexcasting:quenched_allay_tiles",
+    "mass": 2650.0,
+    "friction": 1.0
+  },
+  {
+    "block": "hexcasting:quenched_allay_bricks",
+    "mass": 2650.0,
+    "friction": 1.0
+  },
+  {
+    "block": "hexcasting:quenched_allay_bricks_small",
+    "mass": 2650.0,
+    "friction": 1.0
+  },
+  {
+    "block": "hexcasting:slate_block",
+    "mass": 2900.0,
+    "elasticity": 0.5,
+    "friction": 0.3
+  },
+  {
+    "block": "hexcasting:slate_tiles",
+    "mass": 2900.0,
+    "elasticity": 0.5,
+    "friction": 0.4
+  },
+  {
+    "block": "hexcasting:slate_bricks",
+    "mass": 2900.0,
+    "elasticity": 0.5,
+    "friction": 0.4
+  },
+  {
+    "block": "hexcasting:slate_bricks_small",
+    "mass": 2900.0,
+    "elasticity": 0.5,
+    "friction": 0.5
+  },
+  {
+    "block": "hexcasting:slate_pillar",
+    "mass": 2900.0,
+    "elasticity": 0.5,
+    "friction": 0.3
+  },
+  {
+    "block": "hexcasting:amethyst_dust_block",
+    "mass": 2000.0,
+    "elasticity": 0.2,
+    "friction": 0.4
+  },
+  {
+    "block": "hexcasting:amethyst_tiles",
+    "mass": 2650.0,
+    "friction": 0.7
+  },
+  {
+    "block": "hexcasting:amethyst_bricks",
+    "mass": 2650.0,
+    "friction": 0.7
+  },
+  {
+    "block": "hexcasting:amethyst_bricks_small",
+    "mass": 2650.0,
+    "friction": 0.8
+  },
+  {
+    "block": "hexcasting:amethyst_pillar",
+    "mass": 2650.0,
+    "friction": 0.7
+  },
+  {
+    "block": "hexcasting:slate_amethyst_tiles",
+    "mass": 2775.0,
+    "friction": 0.7
+  },
+  {
+    "block": "hexcasting:slate_amethyst_bricks",
+    "mass": 2775.0,
+    "friction": 0.7
+  },
+  {
+    "block": "hexcasting:slate_amethyst_bricks_small",
+    "mass": 2775.0,
+    "friction": 0.8
+  },
+  {
+    "block": "hexcasting:slate_amethyst_pillar",
+    "mass": 2775.0,
+    "friction": 0.7
+  },
+  {
+    "block": "hexcasting:scroll_paper",
+    "mass": 150.0
+  },
+  {
+    "block": "hexcasting:ancient_scroll_paper",
+    "mass": 150.0
+  },
+  {
+    "block": "hexcasting:scroll_paper_lantern",
+    "mass": 155.0
+  },
+  {
+    "block": "hexcasting:ancient_scroll_paper_lantern",
+    "mass": 155.0
+  },
+  {
+    "block": "hexcasting:amethyst_sconce",
+    "mass": 10.0
+  },
+  {
+    "block": "hexcasting:conjured_block",
+    "mass": 0.1
+  },
+  {
+    "block": "hexcasting:conjured_light",
+    "mass": 0.1
+  }
+]
